@@ -59,6 +59,33 @@ strong {
     margin-right: 3%;
 }
 
+.navbar a {
+    font-weight: bold;
+    color: rgb(29, 24, 24);
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: rgb(245, 247, 241);
+    background-image: linear-gradient(cyan, blue);
+    border-radius: 25px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+
 .half-width img {
     width: 100%;
 }
