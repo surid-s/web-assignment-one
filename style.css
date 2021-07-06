@@ -61,15 +61,13 @@ strong {
 
 .navbar a {
     font-weight: bold;
-    color: rgb(29, 24, 24);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-image: linear-gradient(rgb(128, 143, 223), rgb(80, 77, 72));
+    border-radius: 35px;
+    padding: 10px 40px;
 }
 
-.navbar a:hover {
-    background-color: black;
-    color: rgb(245, 247, 241);
-    background-image: linear-gradient(cyan, blue);
-    border-radius: 25px;
-}
 
 .navbar {
     text-align: center;
@@ -82,7 +80,7 @@ strong {
 .navbar ul li {
     display: inline-block;
     padding: 10px 30px;
-    text-decoration: none;
+
 
 }
 
@@ -171,4 +169,9 @@ footer {
 .follow {
     padding: 105px;
     margin-bottom: 10%;
+}
+
+.last {
+    text-align: center;
+    color: rgb(187, 178, 164);
 }
