@@ -1,3 +1,150 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
 h1 {
-    color: blue;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-weight: bold;
+}
+
+strong {
+    font-size: larger;
+}
+
+.color-blue {
+    color: rgb(7, 111, 248);
+}
+
+.color-tomato {
+    color: tomato;
+}
+
+.section {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+
+.last-section {
+    display: flex;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.last-section img {
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+.half-width {
+    width: 100%;
+    padding: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+    color: rgb(65, 60, 60);
+    font-weight: 250px;
+}
+
+
+.contact-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(77, 77, 189), rgb(55, 206, 206));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: papayawhip;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+.contact-button-2 {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: papayawhip;
+    font-weight: 700;
+    border-radius: 25px;
+
+}
+
+.first-back {
+    background-image: url(images/shapes/Frame\ 59.jpg);
+}
+
+.about-background {
+
+    background-repeat: no-repeat;
+    margin: 0;
+    background-image: url(images/shapes/7.png);
+}
+
+.reciepe {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-decoration: none;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 20px rgb(207, 196, 196);
+    margin-right: 2%;
+    padding: 10px;
+    border-radius: 25px;
+
+
+}
+
+footer {
+    background-color: rgb(9, 18, 32);
+    height: 250px;
+    color: rgb(150, 142, 130);
+    text-align: center;
+
+}
+
+.footer-para {
+    color: rgb(155, 144, 128);
+    text-align: center;
+}
+
+.follow-section {
+    display: flex;
+    box-shadow: 5px 5px 150px rgb(231, 216, 216);
+}
+
+.subscribers {
+    padding: 5%;
+    margin-left: 10%;
+
+}
+
+.follow {
+    height: 180px;
+
+    padding: 105px;
+    margin-bottom: 10%;
 }
